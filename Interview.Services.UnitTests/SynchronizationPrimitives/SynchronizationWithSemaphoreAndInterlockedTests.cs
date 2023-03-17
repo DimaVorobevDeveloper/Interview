@@ -2,11 +2,12 @@
 
 namespace Interview.Services.UnitTests.SynchronizationPrimitives;
 
-internal class SynchronizationWithSemaphoreAndInterlockedTests
+[TestClass]
+public class SynchronizationWithSemaphoreAndInterlockedTests
 {
     [TestMethod]
     public void GetTest()
     {
-        NoSynchronization.Main();
+        SynchronizationWithSemaphoreAndInterlocked.Main();
     }
 }

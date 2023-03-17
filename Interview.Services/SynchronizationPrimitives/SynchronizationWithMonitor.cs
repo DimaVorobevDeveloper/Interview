@@ -4,7 +4,7 @@ public class SynchronizationWithMonitor
 {
     static int x = 0;
     static object locker = new object();
-    public static void Main(string[] args)
+    public static void Main()
     {
         for (int i = 1; i < 6; i++)
         {

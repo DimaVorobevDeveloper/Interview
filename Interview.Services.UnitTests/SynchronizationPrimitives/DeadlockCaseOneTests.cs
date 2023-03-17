@@ -2,11 +2,12 @@
 
 namespace Interview.Services.UnitTests.SynchronizationPrimitives;
 
-internal class DeadlockCaseOneTests
+[TestClass]
+public class DeadlockCaseOneTests
 {
     [TestMethod]
     public void GetTest()
     {
-        NoSynchronization.Main();
+        DeadlockCaseOne.Main();
     }
 }

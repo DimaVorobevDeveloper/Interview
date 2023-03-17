@@ -2,11 +2,12 @@
 
 namespace Interview.Services.UnitTests.SynchronizationPrimitives;
 
-internal class SynchronizationWithMutexTests
+[TestClass]
+public class SynchronizationWithMutexTests
 {
     [TestMethod]
     public void GetTest()
     {
-        NoSynchronization.Main();
+        SynchronizationWithMutex.Main();
     }
 }

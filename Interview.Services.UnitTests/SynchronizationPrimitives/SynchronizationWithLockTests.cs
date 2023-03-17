@@ -2,11 +2,12 @@
 
 namespace Interview.Services.UnitTests.SynchronizationPrimitives;
 
-internal class SynchronizationWithLockTests
+[TestClass]
+public class SynchronizationWithLockTests
 {
     [TestMethod]
     public void GetTest()
     {
-        NoSynchronization.Main();
+        SynchronizationWithLock.Main();
     }
 }

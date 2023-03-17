@@ -2,11 +2,12 @@
 
 namespace Interview.Services.UnitTests.SynchronizationPrimitives;
 
-internal class SynchronizationWithMonitorTests
+[TestClass]
+public class SynchronizationWithMonitorTests
 {
     [TestMethod]
     public void GetTest()
     {
-        NoSynchronization.Main();
+        SynchronizationWithMonitor.Main();
     }
 }

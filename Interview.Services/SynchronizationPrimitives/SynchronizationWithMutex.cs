@@ -5,7 +5,7 @@ public class SynchronizationWithMutex
     static Mutex mutexObj = new Mutex();
     static int x = 0;
 
-    public static void Main(string[] args)
+    public static void Main()
     {
         for (int i = 1; i < 6; i++)
         {

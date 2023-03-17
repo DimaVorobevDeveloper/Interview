@@ -2,11 +2,12 @@
 
 namespace Interview.Services.UnitTests.SynchronizationPrimitives;
 
-internal class SynchronizationWithAutoResetEventTests
+[TestClass]
+public class SynchronizationWithAutoResetEventTests
 {
     [TestMethod]
     public void GetTest()
     {
-        NoSynchronization.Main();
+        SynchronizationWithAutoResetEvent.Main();
     }
 }

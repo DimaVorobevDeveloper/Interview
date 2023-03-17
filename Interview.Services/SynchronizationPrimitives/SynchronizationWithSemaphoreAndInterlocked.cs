@@ -4,7 +4,7 @@ public class SynchronizationWithSemaphoreAndInterlocked
 {
     static int count = 0;
     static Semaphore sem = new Semaphore(5, 5);
-    public static void Main(string[] args)
+    public static void Main()
     {
         for (int i = 1; i < 10; i++)
         {
