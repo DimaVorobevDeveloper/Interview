@@ -1,4 +1,4 @@
-﻿namespace Interview.Services;
+﻿namespace Interview.Services.WorkWithMemory;
 
 public class UnsafeCodeExamples
 {

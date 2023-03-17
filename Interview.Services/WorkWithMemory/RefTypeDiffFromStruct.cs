@@ -1,4 +1,4 @@
-﻿namespace Interview.Services;
+﻿namespace Interview.Services.WorkWithMemory;
 
 public class RefTypeDiffFromStruct
 {
@@ -15,7 +15,7 @@ public class RefTypeDiffFromStruct
 
         Console.WriteLine(((Class)oc).Id + " " + ((Struct)os).Id);
 
-        return (((Class) oc).Id, ((Struct) os).Id);
+        return (((Class)oc).Id, ((Struct)os).Id);
     }
 }
 

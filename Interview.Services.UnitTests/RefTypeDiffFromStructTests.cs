@@ -1,4 +1,6 @@
-﻿namespace Interview.Services.UnitTests;
+﻿using Interview.Services.WorkWithMemory;
+
+namespace Interview.Services.UnitTests;
 
 
 [TestClass]
