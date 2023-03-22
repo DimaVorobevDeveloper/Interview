@@ -1,6 +1,6 @@
-﻿namespace Interview.Services;
+﻿namespace Interview.Services.WorkWithInheritance;
 
-public class Inheritance
+public class BaseInheritance
 {
     public static void Inh()
     {
@@ -16,10 +16,10 @@ public class Inheritance
         C c1 = new();
         c1.DoSome(); // Console.WriteLine("С");
 
-        B b1 = (B)c1;    // присвоение базовому потомка
+        B b1 = c1;    // присвоение базовому потомка
         b1.DoSome(); // и вызывается оверрайдный Console.WriteLine("B");
 
-        A a1 = (A)c1;    // присвоение базовому потомка
+        A a1 = c1;    // присвоение базовому потомка
         a1.DoSome(); // и вызывается оверрайдный Console.WriteLine("B");
     }
 }

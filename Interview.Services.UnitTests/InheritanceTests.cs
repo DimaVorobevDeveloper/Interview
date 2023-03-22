@@ -1,4 +1,6 @@
-﻿namespace Interview.Services.UnitTests;
+﻿using Interview.Services.WorkWithInheritance;
+
+namespace Interview.Services.UnitTests;
 
 [TestClass]
 public class InheritanceTests
@@ -6,6 +8,6 @@ public class InheritanceTests
     [TestMethod]
     public void Do()
     {
-        Inheritance.Inh();
+        BaseInheritance.Inh();
     }
 }

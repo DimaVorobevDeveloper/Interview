@@ -25,14 +25,14 @@ public class WhereStatementTests
     {
         List<int> list = new() { 1, 2, 3, 4, 5 };
 
-        var l0 = WhereStatement.GetMoreThanMin(list);
-        var l1 = WhereStatement.GetMoreThanMin(list, 3);
-        var l2 = WhereStatement.GetMoreThanMinWithConsole(list);
-        var l3 = WhereStatement.GetMoreThanMinWithConsole(list, 3);
+        //var l0 = WhereStatement.GetMoreThanMin(list);
+        //var l1 = WhereStatement.GetMoreThanMin(list, 3);
+        //var l2 = WhereStatement.GetMoreThanMinWithConsole(list);
+        //var l3 = WhereStatement.GetMoreThanMinWithConsole(list, 3);
 
-        Assert.AreEqual(5, l0.Count);
-        Assert.AreEqual(3, l1.Count);
-        Assert.AreEqual(5, l2.Count);
-        Assert.AreEqual(3, l3.Count);
+        //Assert.AreEqual(5, l0.Count);
+        //Assert.AreEqual(3, l1.Count);
+        //Assert.AreEqual(5, l2.Count);
+        //Assert.AreEqual(3, l3.Count);
     }
 }

@@ -11,13 +11,12 @@ public class SpanExamplesBenchmark
     private readonly string[] people;
 
     /// <summary>
-    /// |                    Method |           Mean |         Error |        StdDev |         Median |    Gen0 | Allocated |
-    /// |-------------------------- |---------------:|--------------:|--------------:|---------------:|--------:|----------:|
-    /// |             GetNumsSpanV1 | 13,191.4929 ns |   263.7708 ns |   676.1453 ns | 12,927.7046 ns |  1.0376 |    4344 B |
-    /// |             GetNumsSpanV2 |      0.2307 ns |     0.0362 ns |     0.0471 ns |      0.2120 ns |       - |         - |
-    /// |               GetPeopleV1 | 73,658.0978 ns | 1,343.1433 ns | 2,091.1123 ns | 73,029.3213 ns | 11.4746 |   48344 B |
-    /// |               GetPeopleV2 |      0.3807 ns |     0.0329 ns |     0.0307 ns |      0.3659 ns |       - |         - |
-    /// | GetPeopleArrayWithoutSpan |      0.3400 ns |     0.0137 ns |     0.0121 ns |      0.3387 ns |       - |         - |
+    /// |        Method |      Mean |    Error |   StdDev |    Gen0 |    Gen1 | Allocated |
+    /// |-------------- |----------:|---------:|---------:|--------:|--------:|----------:|
+    /// | GetNumsSpanV1 |        NA |       NA |       NA |       - |       - |         - |
+    /// | GetNumsSpanV2 |  63.59 us | 1.046 us | 1.119 us |  4.7607 |       - |   20287 B |
+    /// |   GetPeopleV1 | 391.40 us | 6.116 us | 5.721 us | 41.0156 | 18.5547 |  234063 B |
+    /// |   GetPeopleV2 |        NA |       NA |       NA |       - |       - |         - |
     /// </summary>
     public SpanExamplesBenchmark()
     {
@@ -39,14 +38,14 @@ public class SpanExamplesBenchmark
     public Span<int> GetNumsSpanV1() => SpanExamples.GetNumsSpanV1(nums);
 
     [Benchmark]
-    public Span<int> GetNumsSpanV2() => SpanExamples.GetNumsSpanV2(nums);
+    public Span<int> GetNumsSpanV2() => SpanExamples.GetNumsSpanV3(nums);
 
-    [Benchmark]
-    public Span<string> GetPeopleV1() => SpanExamples.GetPeopleV1(people);
+    //[Benchmark]
+    //public Span<string> GetPeopleV1() => SpanExamples.GetPeopleV1(people);
 
-    [Benchmark]
-    public Span<string> GetPeopleV2() => SpanExamples.GetPeopleV2(people);
+    //[Benchmark]
+    //public Span<string> GetPeopleV2() => SpanExamples.GetPeopleV2(people);
 
-    [Benchmark]
-    public Span<string> GetPeopleArrayWithoutSpan() => SpanExamples.GetPeopleArrayWithoutSpan(people);
+    //[Benchmark]
+    //public Span<string> GetPeopleArrayWithoutSpan() => SpanExamples.GetPeopleArrayWithoutSpan(people);
 }

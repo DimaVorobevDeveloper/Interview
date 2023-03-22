@@ -1,30 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Collections;
-using System.Drawing;
-using System.Net;
+using Interview.Services;
 
-Console.WriteLine("Hello, World!");
+WorkWithOperators.Do();
+
+// MethodsWithSimilarSignature.Method2(1);
 
 
-LongProcess();
-ShortProcess();
+
 // Console.ReadKey();
 
 
-static async void LongProcess()
-{
-    Console.WriteLine("LongProcess Started");
-    await Task.Delay(4000);
-    Console.WriteLine("LongProcess Completed");
-}
-
-static void ShortProcess()
-{
-    Console.WriteLine("ShortProcess Started");
-    Console.WriteLine("ShortProcess Completed");
-}
-new WebClient().Dispose();
+//new WebClient().Dispose();
 //var snglt = Singleton.GetInstance();
 //snglt.Log();
 
