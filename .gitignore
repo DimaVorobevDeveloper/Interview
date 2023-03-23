@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Interview.WebApiWithRedis/usercacheapp.db
+/Interview.WebApiWithRedis/usercacheapp.db-shm
+/Interview.WebApiWithRedis/usercacheapp.db-wal
