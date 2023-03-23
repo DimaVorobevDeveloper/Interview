@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.App", "Interview.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.Services.UnitTests", "Interview.Services.UnitTests\Interview.Services.UnitTests.csproj", "{5DB1AABE-AD36-439D-A64E-34AD32BE5773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.Services.BenchmarkTests", "Interview.Services.BenchmarkTests\Interview.Services.BenchmarkTests.csproj", "{FF69E0DD-7E8B-4957-B10C-6E34D884C1B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.Services.BenchmarkTests", "Interview.Services.BenchmarkTests\Interview.Services.BenchmarkTests.csproj", "{FF69E0DD-7E8B-4957-B10C-6E34D884C1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.WebApiWithRedis", "Interview.WebApiWithRedis\Interview.WebApiWithRedis.csproj", "{BFC44CE8-2218-4806-A75E-E63836990772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FF69E0DD-7E8B-4957-B10C-6E34D884C1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF69E0DD-7E8B-4957-B10C-6E34D884C1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF69E0DD-7E8B-4957-B10C-6E34D884C1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC44CE8-2218-4806-A75E-E63836990772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC44CE8-2218-4806-A75E-E63836990772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC44CE8-2218-4806-A75E-E63836990772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC44CE8-2218-4806-A75E-E63836990772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
