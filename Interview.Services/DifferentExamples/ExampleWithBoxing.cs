@@ -2,19 +2,23 @@
 
 public class ExampleWithBoxing
 {
-    public static void StructBoxing(string b)
+    public static int StructBoxing(int input = 5)
     {
         MyStruct a = new MyStruct();
-        a.i = 5;
+        a.Count = input;
 
         Object obj = (object)a;
+        
         var str = (MyStruct)obj;
-        str.i = 1_0;
-        Console.WriteLine(((MyStruct)obj).i);
+        str.Count = 1_0;
+
+        var result = ((MyStruct) obj).Count;
+        Console.WriteLine(result);
+        return result;
     }
 }
 
 struct MyStruct
 {
-    public int i;
+    public int Count;
 }

@@ -3,7 +3,7 @@
 internal class GetNotInitValue
 {
     static int one = GetAnother();
-    // исправить так static int a => GetBVar();
+    // исправить так static int a => GetAnother();
     static int another = 5;
 
     static int GetAnother()
