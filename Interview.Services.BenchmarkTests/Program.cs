@@ -4,4 +4,4 @@ using BenchmarkDotNet.Running;
 using Interview.Services.BenchmarkTests;
 
 //var summary = BenchmarkRunner.Run<DictionaryWithBenchmark>();
-var summary = BenchmarkRunner.Run<SpanExamplesBenchmark>();
+var summary = BenchmarkRunner.Run<SbBenchmark>();

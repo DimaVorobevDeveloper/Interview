@@ -1,4 +1,6 @@
 ﻿using Interview.Services.Linq;
+using FluentAssertions;
+using FluentAssertions.Execution;
 
 namespace Interview.Services.UnitTests;
 
@@ -13,6 +15,12 @@ public class WhereStatementTests
         var m1 = WhereStatement.GetLessThanMax(list, 3);
         var m2 = WhereStatement.GetLessThanMaxWithConsole(list);
         var m3 = WhereStatement.GetLessThanMaxWithConsole(list, 3);
+
+        using (new AssertionScope())
+        {
+            m0.Count.Should().Be(4);
+            m1.Count.Should().Be(4);
+        }
 
         Assert.AreEqual(5, m0.Count);
         Assert.AreEqual(3, m1.Count);

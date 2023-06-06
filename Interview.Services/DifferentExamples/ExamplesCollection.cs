@@ -10,7 +10,6 @@ internal class ExamplesCollection
     //        throw new NotImplementedException();
     //    }
     //}
-
     
     // 6 
     //LongProcess();

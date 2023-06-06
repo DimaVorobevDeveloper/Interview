@@ -21,6 +21,7 @@ public class WorkWithCollection
 
         var t = RemoveMiddleValueFromArray(RemoveMiddleValueFromArray1);
         return t;
+
     }
 
     public int RemoveMiddleValueFromArray(OneDelegate d)

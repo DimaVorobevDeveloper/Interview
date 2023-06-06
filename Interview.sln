@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.Services.UnitTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.Services.BenchmarkTests", "Interview.Services.BenchmarkTests\Interview.Services.BenchmarkTests.csproj", "{FF69E0DD-7E8B-4957-B10C-6E34D884C1B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.WebApiWithRedis", "Interview.WebApiWithRedis\Interview.WebApiWithRedis.csproj", "{BFC44CE8-2218-4806-A75E-E63836990772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.WebApiWithRedis", "Interview.WebApiWithRedis\Interview.WebApiWithRedis.csproj", "{BFC44CE8-2218-4806-A75E-E63836990772}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.WithLinqToDb.WebApi", "Interview.WithLinqToDb.WebApi\Interview.WithLinqToDb.WebApi.csproj", "{2EE20CBB-CCD9-46D3-96CE-61C9E38845BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.WithLinqToDb.Data", "Interview.WithLinqToDb.Data\Interview.WithLinqToDb.Data.csproj", "{12269454-88DD-4DBA-AD8D-441D11F05AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.WithLinqToDb.Data.Standard", "Interview.WithLinqToDb.Data.Standard\Interview.WithLinqToDb.Data.Standard.csproj", "{629F9D4D-A57E-42DC-94B1-39484403DACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{BFC44CE8-2218-4806-A75E-E63836990772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFC44CE8-2218-4806-A75E-E63836990772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFC44CE8-2218-4806-A75E-E63836990772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE20CBB-CCD9-46D3-96CE-61C9E38845BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE20CBB-CCD9-46D3-96CE-61C9E38845BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE20CBB-CCD9-46D3-96CE-61C9E38845BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE20CBB-CCD9-46D3-96CE-61C9E38845BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12269454-88DD-4DBA-AD8D-441D11F05AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12269454-88DD-4DBA-AD8D-441D11F05AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12269454-88DD-4DBA-AD8D-441D11F05AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12269454-88DD-4DBA-AD8D-441D11F05AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629F9D4D-A57E-42DC-94B1-39484403DACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629F9D4D-A57E-42DC-94B1-39484403DACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629F9D4D-A57E-42DC-94B1-39484403DACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629F9D4D-A57E-42DC-94B1-39484403DACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
