@@ -1,6 +1,6 @@
-﻿using Interview.Services.Linq;
-using FluentAssertions;
+﻿using FluentAssertions;
 using FluentAssertions.Execution;
+using Interview.Services.Linq;
 
 namespace Interview.Services.UnitTests;
 

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DataModels;
 using LinqToDB;
-using LinqToDB.Data;
 using Microsoft.Extensions.Configuration;
-using DataModels;
 
 namespace Interview.WithLinqToDb.Data.DbRepositories.Rds
 {

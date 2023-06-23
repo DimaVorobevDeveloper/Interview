@@ -1,10 +1,8 @@
-﻿using DataModels;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using DataModels;
 using LinqToDB;
+using Microsoft.Extensions.Configuration;
 
 namespace Interview.WithLinqToDb.Data.Standard.DbRepositories.KPP
 {

@@ -1,10 +1,9 @@
 using DataModels;
-// using Interview.WithLinqToDb.Data.DbRepositories.Rds;
 using Interview.WithLinqToDb.Data.Standard.DbRepositories.KPP;
 using LinqToDB;
 using LinqToDB.AspNet;
 using LinqToDB.AspNet.Logging;
-using LinqToDB.Common;
+// using Interview.WithLinqToDb.Data.DbRepositories.Rds;
 
 var builder = WebApplication.CreateBuilder(args);
 

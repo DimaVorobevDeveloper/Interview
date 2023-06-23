@@ -1,8 +1,6 @@
-﻿using StackExchange.Redis;
-using System.Text.Json;
+﻿using System.Text.Json;
 using Interview.WebApiWithRedis.Model;
-using Microsoft.AspNetCore.Mvc;
-using System.Xml.Linq;
+using StackExchange.Redis;
 
 namespace Interview.WebApiWithRedis.Repositories
 {

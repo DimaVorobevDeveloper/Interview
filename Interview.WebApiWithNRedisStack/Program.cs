@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using StackExchange.Redis;
-using NRedisStack;
-using NRedisStack.RedisStackCommands;
+
 using StackExchange.Redis;
 
 //...

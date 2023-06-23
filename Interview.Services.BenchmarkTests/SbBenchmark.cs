@@ -1,6 +1,5 @@
 ﻿using System.Text;
 using BenchmarkDotNet.Attributes;
-using Interview.Services.WorkWithMemory;
 
 namespace Interview.Services.BenchmarkTests;
 
