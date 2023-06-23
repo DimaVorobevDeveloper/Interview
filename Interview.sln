@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.WithLinqToDb.WebA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.WithLinqToDb.Data", "Interview.WithLinqToDb.Data\Interview.WithLinqToDb.Data.csproj", "{12269454-88DD-4DBA-AD8D-441D11F05AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.WithLinqToDb.Data.Standard", "Interview.WithLinqToDb.Data.Standard\Interview.WithLinqToDb.Data.Standard.csproj", "{629F9D4D-A57E-42DC-94B1-39484403DACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.WithLinqToDb.Data.Standard", "Interview.WithLinqToDb.Data.Standard\Interview.WithLinqToDb.Data.Standard.csproj", "{629F9D4D-A57E-42DC-94B1-39484403DACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.WebApiWithNRedisStack", "Interview.WebApiWithNRedisStack\Interview.WebApiWithNRedisStack.csproj", "{2F943F09-20B0-4D97-8684-952D9C22DE3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{629F9D4D-A57E-42DC-94B1-39484403DACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{629F9D4D-A57E-42DC-94B1-39484403DACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{629F9D4D-A57E-42DC-94B1-39484403DACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F943F09-20B0-4D97-8684-952D9C22DE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F943F09-20B0-4D97-8684-952D9C22DE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F943F09-20B0-4D97-8684-952D9C22DE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F943F09-20B0-4D97-8684-952D9C22DE3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
